@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 //import logo from './logo.svg';
 import './App.css'
 import { Route , Switch } from 'react-router-dom'
+// import Breakpoint, { BreakpointProvider } from 'react-socks'
 
 import MainContainer from './MainContainer'
 
@@ -15,15 +16,41 @@ const My404 = () => {
 
 const App = () => {
   return(
-    <main>
-      <Switch>
-        <Route exact path='/' component = { MainContainer } />
-      </Switch>
-    </main>
+      <main>
+        <Switch>
+          <Route exact path='/' component = { MainContainer } />
+        </Switch>
+      </main>
   )
 }
 
 export default App;
+
+
+// const My404 = () => {
+//   return(
+//     <div>
+//     don't worry! you can do it!
+//     </div>
+//   )
+// }
+//
+// const App = () => {
+//   return(
+//     <BreakpointProvider>
+//       <main>
+//         <Switch>
+//           <Route exact path='/' component = { MainContainer } />
+//         </Switch>
+//       </main>
+//     </BreakpointProvider>
+//   )
+// }
+//
+// export default App;
+
+
+
 
 // class App extends Component {
 //   render() {

@@ -7,15 +7,14 @@ class Nav extends Component{
   }
 
   render(){
+
     return(
       <div>
-        <ul className="topnav">
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">About me</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul className="topnav" id="myTopnav">
+          <li id="home"><a href="/"><img id="logo" src="./logo-v2.png" /></a></li>
+          <li><a href="/#skills">Skills</a></li>
+          <li><a href="/#projects">Projects</a></li>
+          <li><a href="/#contact">Contact</a></li>
         </ul>
       </div>
     )
