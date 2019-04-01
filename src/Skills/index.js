@@ -9,7 +9,7 @@ class Skills extends Component{
   render(){
     return(
       <div className="skills">
-        <h2 id="title">Skills</h2>
+        <h2>Skills</h2>
 
         <div className="top grid-container">
           <div className="top grid-item">
@@ -111,32 +111,3 @@ class Skills extends Component{
 }
 
 export default Skills
-
-
-// <div className="grid-container">
-//   <div className="grid-item">
-//     <div className="front grid-container">
-//       <img id="front" className="front grid-item" src="./skills/tools.png" />
-//       <div className="front grid-item">
-//         <div className="badges">
-//           <span className="badge">Korean</span>
-//           <span className="badge">Japanese</span>
-//           <span className="badge">English</span>
-//         </div>
-//         <div className="badges">
-//           <span className="badge">Adaptability</span>
-//           <span className="badge">Multi-tasking</span>
-//         </div>
-//         <div className="badges">
-//           <span className="badge">Problem-solving</span>
-//           <span className="badge">Teamwork</span>
-//         </div>
-//         <div className="badges">
-//           <span className="badge">Strong Communication</span>
-//         </div>
-//         <div className="badges">
-//           <span className="badge">Customer Service</span>
-//         </div>
-//     </div>
-//   </div>
-// </div>
