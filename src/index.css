@@ -9,12 +9,100 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
-  background-color: black;
+  background-color: #161b21;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* contract */
+
+.contract.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 38px;
+}
+
+.namecard {
+  color: white;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.tooltip {
+  background-color: white;
+  padding: 5px;
+}
+
+/* projects */
+
+.aheroku {
+  margin-left: 5px;
+  font-size: 16px;
+  vertical-align: top;
+}
+
+.heroku {
+  height: 5%;
+  width: 8%;
+}
+
+.frontend {
+  margin-left: 4px;
+}
+
+.backend {
+  margin-left: 8px;
+}
+
+.divider {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+#divider{
+  color: white;
+  margin-right: 20px;
+  margin-left: 15px;
+}
+
+#emailIcon {
+  height: 32px;
+  width: 32px;
+  padding: 3px;
+  vertical-align: middle;
+}
+
+.mailtext {
+  margin-left: 10px;
+}
+
+#mailtext {
+  color: #DFD9D9;
+}
+
+
+.download{
+  margin-left: 10px;
+  color: #DFD9D9;
+}
+
+.linkedin, .github {
+  margin-top: 10px;
+}
+
+.linkedintext, .githubtext {
+  margin-left: 10px;
+  color: #DFD9D9;
+  /* vertical-align: sub; */
+}
+
+#download {
+  color: #DFD9D9;
+  /* margin-top: 10px; */
+  vertical-align: bottom;
 }
 
 .card.grid-container {
@@ -29,16 +117,16 @@ code {
   width: 300px;
   background-color: white;
   padding-bottom: 20px;
-  border-radius: 15px;
+  /* border-radius: 15px; */
 }
 
 .pic {
   width: 300px;
   height: 250px;
-  border-radius: 13px 13px 0 0;
+  /* border-radius: 13px 13px 0 0; */
 }
 
-.link {
+.links {
   margin: 10px auto 20px 15px;
 }
 
@@ -58,11 +146,11 @@ code {
 .pro.badge {
   border: 1px solid;
   background-color: white;
-  padding: 2px 12px;
+  padding: 1px 10px;
   border-radius: 15px;
   margin: 4px 4px 0 0;
   display: inline-flex;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 
@@ -115,12 +203,12 @@ h2 {
   height: 200px;
   width: 480px;
   padding-right: 15px;
-  border-radius: 15px;
+  /* border-radius: 15px; */
 }
 
 .top.grid-container,
 .bottom.grid-container {
-  margin-left: 0px;
+  margin-left: 85px;
 }
 
 .skills {
@@ -130,6 +218,18 @@ h2 {
 /* entire skill component items */
 
 #skills {
+  height: auto;
+  padding-bottom: 80px;
+  width: 100%;
+}
+
+#projects {
+  height: auto;
+  padding-bottom: 80px;
+  width: 100%;
+}
+
+#contact {
   height: auto;
   padding-bottom: 80px;
   width: 100%;
@@ -151,7 +251,7 @@ p {
 }
 
 #profile {
-  background-color: black;
+  /* background-color: black; */
   height: auto;
 }
 
