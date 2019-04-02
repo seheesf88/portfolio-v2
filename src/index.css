@@ -17,9 +17,9 @@ code {
     monospace;
 }
 
-/* contract */
+/* contact */
 
-.contract.grid-container {
+.contact.grid-container {
   display: grid;
   grid-template-columns: auto;
   grid-gap: 38px;
@@ -178,8 +178,9 @@ h2 {
 }
 
 .badge {
-  background-color: grey;
-  padding: 2px 12px;
+  background-color: white;
+  border: 1px solid;
+  padding: 3px 12px;
   border-radius: 15px;
   margin: 4px 4px 0 0;
   display: inline-flex;
@@ -398,6 +399,21 @@ li a {
     justify-content: center;
   }
 
+  .contact.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 38px;
+  }
+
+  .namecard {
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .contact.grid-item {
+    margin-left: 20px;
+  }
 }
 
 

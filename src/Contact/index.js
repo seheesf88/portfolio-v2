@@ -12,8 +12,8 @@ class Contact extends Component{
     return(
       <div className="contact">
         <h2>Conatct</h2>
-        <div className="contract grid-container">
-          <div className="contract grid-item">
+        <div className="contact grid-container">
+          <div className="contact grid-item">
             <div className="namecard">
               <div>SeHee Son</div>
               <div>San Francisco, CA</div>

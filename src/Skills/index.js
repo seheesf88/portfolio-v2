@@ -26,7 +26,6 @@ class Skills extends Component{
                   <span className="badge">React.js</span>
                   <span className="badge">Node.js</span>
                   <span className="badge">npm</span>
-                  <span className="badge">Express</span>
                   <span className="badge">JQuery</span>
                   <span className="badge">Vanila.js</span>
                   <span className="badge">DOM</span>
@@ -50,6 +49,7 @@ class Skills extends Component{
                   <div className="badges">
                     <span className="badge">Python</span>
                     <span className="badge">Flask</span>
+                    <span className="badge">Express</span>
                     <span className="badge">API</span>
                     <span className="badge">REST architecture</span>
                     <span className="badge">MVC pattern</span>
