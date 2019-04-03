@@ -99,6 +99,11 @@ code {
   /* vertical-align: sub; */
 }
 
+.linkedintext:hover, .githubtext:hover, .download:hover, #mailtext:hover {
+  color: #00ffff;
+}
+
+
 #download {
   color: #DFD9D9;
   /* margin-top: 10px; */
@@ -277,6 +282,9 @@ li {
   margin-top: 50px;
 }
 
+li a:hover {
+  color: #00ffff
+}
 /* logo id */
 
 

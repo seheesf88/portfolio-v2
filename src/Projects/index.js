@@ -20,7 +20,7 @@ class Projects extends Component{
               This application is what a user can use to plan and manage a trip budget and itinerary. The user can share this information with other users. This app includes a calendar and budget calculator.
             </div>
             <div className="links ">
-              <div className="link"><img src="./projects/heroku.png" className="heroku" /><a href="https://react-tripplanner.herokuapp.com" className="aheroku">Flight Tracker</a></div>
+              <div className="link"><img src="./projects/heroku.png" className="heroku" /><a href="https://react-tripplanner.herokuapp.com" className="aheroku">My Trip Planner</a></div>
               <div>
                 <span><SocialIcon network="github" style={{ height: 25, width: 25 }} bgColor="#203960" /></span>
                 <span><a href="https://git.generalassemb.ly/seheesf88/react-project5" className="frontend">Front-end</a></span>
@@ -48,7 +48,7 @@ class Projects extends Component{
             <h4>SeeStar</h4>
             <div className="description">This application is a clone Instagram app. The user can post and share their pictures and stories and view other user's pictures and story. Users also can add comments to other user's posting.</div>
             <div className="links">
-              <div className="link"><img src="./projects/heroku.png" className="heroku" /><a href="https://star-frontend.herokuapp.com" className="aheroku">Flight Tracker</a></div>
+              <div className="link"><img src="./projects/heroku.png" className="heroku" /><a href="https://star-frontend.herokuapp.com" className="aheroku">SeeStar</a></div>
               <div>
                 <span><SocialIcon network="github" style={{ height: 25, width: 25 }} bgColor="#203960" /></span>
                 <span><a href="https://git.generalassemb.ly/seheesf88/project4" className="frontend">Front-end</a></span>

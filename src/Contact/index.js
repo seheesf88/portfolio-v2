@@ -59,7 +59,7 @@ class Contact extends Component{
                 >
                   <SocialIcon style={{ height: 40, width: 40 }} bgColor="#DFD9D9" url="http://linkedin.com/in/sehee-son/" />
                 </OverlayTrigger>
-                <a href="https://git.generalassemb.ly/seheesf88/" className="linkedintext">linkedin</a>
+                <a href="https://www.linkedin.com/in/sehee-son/" className="linkedintext">linkedin</a>
               </span>
 
               <span className="divider" id="divider">|</span>
