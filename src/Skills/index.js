@@ -25,6 +25,7 @@ class Skills extends Component{
                   <span className="badge">CSS</span>
                   <span className="badge">React.js</span>
                   <span className="badge">Node.js</span>
+                  <span className="badge">ES6</span>
                   <span className="badge">npm</span>
                   <span className="badge">JQuery</span>
                   <span className="badge">Vanila.js</span>
