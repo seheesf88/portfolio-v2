@@ -74,9 +74,9 @@ class Contact extends Component{
                   </Tooltip>
                 }
               >
-                <a href="../Resume_SeHee_Son.pdf" download><img src="./contact/download.png" style={{ height: 36, width: 38 }} id="download"/></a>
+                <a href="../Resume_SeHee_Son_v2.pdf" download><img src="./contact/download.png" style={{ height: 36, width: 38 }} id="download"/></a>
               </OverlayTrigger>
-              <a href="/" download className="download">Download Resume</a>
+              <a href="../Resume_SeHee_Son_v2.pdf" download className="download">Download Resume</a>
               </span>
               </div>
           </div>
