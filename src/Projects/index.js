@@ -38,7 +38,7 @@ class Projects extends Component{
               <span className="pro badge">RESTful API</span>
               <span className="pro badge">CRUD pattern</span>
               <span className="pro badge">Ajax</span>
-              <span className="pro badge">Bootstraps</span>
+              <span className="pro badge">Bootstrap</span>
               <span className="pro badge">CSS</span>
               <span className="pro badge">Semantic UI</span>
               <span className="pro badge">JSX</span>
@@ -65,7 +65,7 @@ class Projects extends Component{
               <span className="pro badge">PostgreSQL</span>
               <span className="pro badge">CRUD pattern</span>
               <span className="pro badge">Ajax</span>
-              <span className="pro badge">Bootstraps</span>
+              <span className="pro badge">Bootstrap</span>
               <span className="pro badge">CSS</span>
               <span className="pro badge">Semantic UI</span>
               <span className="pro badge">JSX</span>

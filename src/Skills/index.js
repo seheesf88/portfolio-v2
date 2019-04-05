@@ -34,7 +34,7 @@ class Skills extends Component{
                   <span className="badge">EJS</span>
                   <span className="badge">JSX</span>
                   <span className="badge">Jinja</span>
-                  <span className="badge">Bootstraps</span>
+                  <span className="badge">Bootstrap</span>
                   <span className="badge">Semenatic UI</span>
                 </div>
             </div>
