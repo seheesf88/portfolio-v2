@@ -33,7 +33,6 @@ class Projects extends Component{
               <span className="pro badge">React</span>
               <span className="pro badge">npm</span>
               <span className="pro badge">MongoDB</span>
-              <span className="pro badge">Mongoose</span>
               <span className="pro badge">Session</span>
               <span className="pro badge">RESTful API</span>
               <span className="pro badge">CRUD pattern</span>
@@ -78,12 +77,12 @@ class Projects extends Component{
               This application is for a user to track flights and share reports about delays. The user can search flights by entering flight numbers and see flight information and reports about delays from other users.
             </div>
             <div className="links">
-              <div className="link"><img src="./projects/heroku.png" className="heroku" /><a href="https://flight-react.herokuapp.com/" className="aheroku">Flight Tracker</a></div>
+              <div className="link"><img src="./projects/heroku.png" className="heroku" /><a href="https://react-flight-front.herokuapp.com/" className="aheroku">Flight Tracker</a></div>
               <div>
                 <span><SocialIcon network="github" style={{ height: 25, width: 25 }} bgColor="#203960" /></span>
-                <span><a href="https://git.generalassemb.ly/seheesf88/project3-flight-react" className="frontend">Front-end</a></span>
+                <span><a href="https://git.generalassemb.ly/seheesf88/flighttracker-extend-frontend" className="frontend">Front-end</a></span>
                 <span className="divider">|</span>
-                <span><a href="https://git.generalassemb.ly/seheesf88/project3-flight-api" className="backend">Backend</a></span>
+                <span><a href="https://git.generalassemb.ly/seheesf88/project3-extend-backend" className="backend">Backend</a></span>
               </div>
             </div>
             <div className="pro badges">
@@ -92,7 +91,6 @@ class Projects extends Component{
               <span className="pro badge">npm</span>
               <span className="pro badge">RESTful API</span>
               <span className="pro badge">MongoDB</span>
-              <span className="pro badge">Moongose</span>
               <span className="pro badge">Ajax</span>
               <span className="pro badge">CRUD pattern</span>
               <span className="pro badge">Bootstrap</span>
